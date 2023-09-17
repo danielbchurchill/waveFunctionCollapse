@@ -4,7 +4,7 @@ Algorithm done in p5.js, based on coding train tutorial.
 
 npm install\
 npm run dev\
-Reload page for a new pattern.\
+Reload page for a new pattern.
 
 
 # P5.js-vite Starter Template 🚀
