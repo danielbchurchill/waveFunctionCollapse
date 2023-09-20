@@ -3,7 +3,7 @@ import {sketch} from 'p5js-wrapper';
 
 const tiles = [];
 let grid = [];
-const DIM = 10;
+const DIM = 40;
 
 const BLANK = 0;
 const UP = 1;
@@ -53,7 +53,7 @@ sketch.preload = function(){
 }
 
 sketch.setup = function(){
-  createCanvas (800, 800);
+  createCanvas (window.innerWidth, window.innerHeight);
 
   for (let i = 0; i < DIM * DIM; i++){
     grid[i] = {
