@@ -11,7 +11,7 @@ let grid = [];
 const DIM = 40;
 
 sketch.preload = function () {
-    const path = "lib/circuit/";
+    const path = "/circuit/";
     for (let i = 0; i < 13; i++) {
         tileImages[i] = loadImage(`${path}/${i}.png`);
     }
